@@ -8,6 +8,7 @@ document.addEventListener("mousemove", (e) =>{
     cursor.style.top = y + "px";
     cursor.style.left = x + "px";
     cursor.style.display = "block";
+    cursor.style.position = "absolute";
 
     function mouseStopped(){
         cursor.style.display="none";
