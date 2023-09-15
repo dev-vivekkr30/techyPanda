@@ -4,6 +4,7 @@
 :root{
     --primary-color : #FFDC60;
     --secondary-color : #BF45FF;
+    --third-color : #7D7D7D;
     --text-color: #222222;
     --white-color: #ffffff;
     --font-inter: 'Inter', sans-serif;
@@ -22,7 +23,6 @@
   /* Handle */
   ::-webkit-scrollbar-thumb {
     background: var(--primary-color); 
-    border-radius: 50px;
   }
   
   /* Handle on hover */
@@ -35,6 +35,14 @@
 body{
     font-family: var(--font-inter);
     cursor: none;
+}
+
+h2{
+    font-size: 42px;
+}
+
+.sub-head{
+    color: var(--third-color);
 }
 
 
@@ -132,7 +140,7 @@ a{
 }
 
 .hero-section h4{
-    color: #7D7D7D;
+    color: var(--third-color);
     font-size: 24px;
     font-style: normal;
     font-weight: 400;
@@ -156,7 +164,7 @@ a{
     border-bottom: 1px solid #59595940;
 }
 .service-carousel .service-text p{
-    color: #7D7D7D;
+    color: var(--third-color);
     font-weight: 300;
 }
 
@@ -233,4 +241,13 @@ service-cards ends */
 
 .case-study-section .default-btn{
     color: var(--white-color);
+}
+
+.testimonial{
+    background-color: #FBF4FF;
+    border-radius: 32px;
+    max-width: 100%;
+}
+.testimonial h4{
+
 }
