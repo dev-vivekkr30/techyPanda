@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 /* CSS varible */
 :root{
@@ -17,12 +17,13 @@
   
   /* Track */
   ::-webkit-scrollbar-track {
-    background: var(--secondary-color); 
+    background: #fff; 
   }
    
   /* Handle */
   ::-webkit-scrollbar-thumb {
     background: var(--primary-color); 
+    border-radius: 5px;
   }
   
   /* Handle on hover */
@@ -38,7 +39,7 @@ body{
 }
 
 h2{
-    font-size: 42px;
+    font-size: 52px;
 }
 
 .sub-head{
@@ -211,6 +212,7 @@ service-cards ends */
 .case-study-section .card{
     border-radius: 32px;
     width: 616px;
+    padding: 10px;
 }
 
 .case-study-section .card img{
@@ -242,12 +244,64 @@ service-cards ends */
 .case-study-section .default-btn{
     color: var(--white-color);
 }
-
+/* 
 .testimonial{
-    background-color: #FBF4FF;
+    background-color: #f7eafe;
     border-radius: 32px;
     max-width: 100%;
+    height: auto;
+} */
+.testimonial .testimonial-text{
+    padding: 150px 50px;
 }
-.testimonial h4{
 
+.testimonial .testimonial-text .heading-sticky{
+    position: sticky;
+    top: 100px;
+}
+
+.testimonial .card{
+    border: none;
+    padding: 25px;
+    margin-bottom: 50px;
+}
+.testimonial .card:hover{
+    box-shadow: 4px 4px 24px 0px rgba(45, 45, 45, 0.084) !important;
+}
+.testimonial .card:nth-child(1){
+    background-color: #FFEDAF;
+}
+
+.testimonial .card:nth-child(2){
+    background-color: #EECFFE;
+}
+
+.testimonial .card:nth-child(3){
+    background-color: #ADFAD5;
+}
+.testimonial .card img{
+    max-width: 100px;
+    margin: auto;
+    margin-bottom: none;
+}
+
+.testimonial .card .card-body .card-title{
+    font-weight: bold;
+    padding: 10px;
+}
+.testimonial .card .card-body .user-img{
+    background-image: url(/images/user-1.jpg);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80px;
+    max-width: 80px;
+    border-radius: 50%;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+.cta-form{
+    background-color: var(--primary-color);
+    
 }
