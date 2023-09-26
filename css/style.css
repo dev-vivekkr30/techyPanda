@@ -302,7 +302,7 @@ service-cards ends */
 }
 
 .cta-form{
-    background-color: var(--primary-color);
+    background-color: #ffedaf;
 }
 .cta-form h2{
     font-weight: bold;
@@ -330,5 +330,20 @@ service-cards ends */
     background-color: #000000;
     border-color: #000;
     box-shadow: 4px 4px 20px #00000049;
+}
+
+.footer{
+    background-color: var(--text-color);
+
+}
+
+.footer .footer-logo{
+    width: 100%;
+    border-bottom: 1px solid var(--white-color);
+}
+
+.footer img{
+    max-width: 250px;
+    padding-bottom: 10px;
 }
 
