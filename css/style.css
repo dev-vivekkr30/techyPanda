@@ -291,7 +291,7 @@ service-cards ends */
     padding: 10px;
 }
 .testimonial .card .card-body .user-img{
-    background-image: url('images/user-1.jpg');
+    background-image: url('../images/user-1.jpg');
     background-position: top;
     background-repeat: no-repeat;
     background-size: cover;
