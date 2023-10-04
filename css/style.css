@@ -189,11 +189,11 @@ a{
 }
 
 .service-carousel .service-card .card:nth-child(1){
-    background-image: url('/images/service-card-ui.png');
+    background-image: url('images/service-card-ui.png');
 }
 
 .service-carousel .service-card .card:nth-child(2){
-    background-image: url('/images/service-card-web.png');
+    background-image: url('images/service-card-web.png');
 }
 
 .service-carousel .service-card .card a{
@@ -205,7 +205,7 @@ a{
     max-width: 100%;
     padding: 35px;
     height: 675px;
-    background-image: url('/images/service-card-digital-marketing.png');
+    background-image: url('images/service-card-digital-marketing.png');
 }
 /* 
 service-cards ends */
@@ -291,7 +291,7 @@ service-cards ends */
     padding: 10px;
 }
 .testimonial .card .card-body .user-img{
-    background-image: url(/images/user-1.jpg);
+    background-image: url(images/user-1.jpg);
     background-position: top;
     background-repeat: no-repeat;
     background-size: cover;
