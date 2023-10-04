@@ -5,6 +5,7 @@
     --primary-color : #FFDC60;
     --secondary-color : #BF45FF;
     --third-color : #7D7D7D;
+    --icon-color : #e3e3e3;
     --text-color: #222222;
     --white-color: #ffffff;
     --font-inter: 'Inter', sans-serif;
@@ -335,13 +336,33 @@ service-cards ends */
 .footer{
     background-color: var(--text-color);
 
+    color: var(--white-color);
+}
+.footer a{
+    text-decoration: none;
+    color: var(--white-color);
+    padding-right: 10px;
+    font-weight: 300;
 }
 
-.footer .footer-logo{
+.footer .footer-top{
     width: 100%;
-    border-bottom: 1px solid var(--white-color);
+    border-bottom: 1px solid #474747;
 }
 
+.footer .footer-top .social-icons i{
+    font-size: 24px;
+    padding: 5px;
+    color: var(--icon-color);
+}
+
+.footer .footer-top .social-icons i:hover{
+    color: var(--primary-color)
+}
+.footer .text-light{
+    font-size: 12px !important;
+    font-weight: 300;
+}
 .footer img{
     max-width: 250px;
     padding-bottom: 10px;
