@@ -31,18 +31,21 @@
                         class="d-inline-block align-text-top" />
                 </a>
 
-                <a href="#"><i class="bi bi-list menu-icon"></i></a>
+                <a  data-bs-toggle="offcanvas" data-bs-target="#staticBackdrop" aria-controls="staticBackdrop" href="#"><i class="bi bi-list menu-icon"></i></a>
             </div>
         </nav>
 
-        <div class="open-menu">
-            <div class="row">
-                <div class="col-md-4">
-                    
-                </div>
-                <div class="col-md-8"></div>
+          <div class="offcanvas offcanvas-start" data-bs-backdrop="static" tabindex="-1" id="staticBackdrop" aria-labelledby="staticBackdropLabel">
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="staticBackdropLabel">Offcanvas</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
             </div>
-        </div>
+            <div class="offcanvas-body">
+              <div>
+                I will not close if you click outside of me.
+              </div>
+            </div>
+          </div>
 
         <!-- navigation-bar -->
 
