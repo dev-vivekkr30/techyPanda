@@ -36,7 +36,7 @@
 
 body{
     font-family: var(--font-inter);
-    cursor: none;
+    /* cursor: none; */
 }
 
 h2{
@@ -50,7 +50,7 @@ h2{
 
 /* CSS  for cursor */
 
-    .cursor{
+    /* .cursor{
         z-index: 999;
         position: fixed;
         background-color: var(--secondary-color);
@@ -82,7 +82,7 @@ h2{
         opacity: 0.2;
         transform: translate(-30%, -30%);
         border-radius: 50%;
-    }
+    } */
 
 /* CSS  for cursor */
 a{
@@ -175,7 +175,7 @@ a{
     font-weight: 400;
     line-height: 30px;
 }
-.hero-section .input-group{
+/* .hero-section .input-group{
     border: 1px solid var(--primary-color) !important;
     max-width: 75%;
     height: 70px;
@@ -187,7 +187,19 @@ a{
     margin-left: 35px;
     background-color: transparent;
     height: 66px;
+} */
+
+.hero-section #button-addon2{
+    padding: 16px 48px;
+    color: var(--text-color);
+    background-color: var(--white-color);
 }
+.hero-section #button-addon2:hover{
+    padding: 16px 48px;
+    color: var(--text-color);
+    background-color: var(--primary-color);
+}
+
 
 .service-carousel .title-text{
     border-bottom: 1px solid #59595940;
@@ -331,10 +343,16 @@ service-cards ends */
 
 .cta-form{
     background-color: #ffedaf;
+    background-image: url('/techyPanda/techyPanda/images/form-background.svg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 24px;
+    margin-bottom: 80px;
 }
 .cta-form h2{
     font-weight: bold;
-    font-size: 70px;
+    /* font-size: 70px; */
 }
 .cta-form .form-group{
     width: 50%;
@@ -395,3 +413,10 @@ service-cards ends */
     padding-bottom: 10px;
 }
 
+.form-control:focus {
+    box-shadow: none;
+}
+
+.footer .copyright{
+    color: var(--third-color);
+}
