@@ -1,0 +1,151 @@
+@media only screen and (max-width:1200px){
+
+    .testimonial .card{
+        width: 28rem !important;
+    }
+    
+    .offcanvas .offcanvas-body .nav-opt .nav-link{
+        font-size: 48px;
+    }
+    .offcanvas .offcanvas-body .contact-info p{
+        font-size: 18px;
+    }
+}
+
+@media only screen and (max-width:480px){
+
+    .hero-section h1{
+        text-align: center;
+        font-size: 38px;
+        line-height: 68px;
+    }
+    .hero-section h4 {
+        text-align: center;
+        font-size: 18px;
+        line-height: 18px;
+    }
+
+    .hero-section #button-addon2{
+        width: 100%;
+        margin: 0 !important;
+        margin-bottom: 38px !important;
+    }
+
+    .offcanvas-end{
+        width: 100%;
+    }
+    .offcanvas .offcanvas-body .nav-opt .nav-link{
+        padding: 14px 0px;
+    }
+
+    .service-carousel .service-card .side-card .card{
+        margin: 18px 14px;
+    }
+
+    .service-carousel .title-text img{
+        display: none;
+    }
+
+    .case-study-section .case-study-section-card .col-md-12 {
+        display: grid !important;
+    }
+    .case-study-section .card {
+        width: 100%;
+        margin: 0 !important;
+        margin-bottom: 18px !important;
+    }
+
+    .case-study-section .card .card-footer .case-btn{
+        font-size: 14px !important;
+    }
+
+    .testimonial .card {
+        width: 24rem !important;
+    }
+
+    .testimonial .testimonial-text {
+        padding: 50px 50px;
+    }
+    
+    .testimonial .testimonial-card{
+        padding: 0 !important;
+        display: grid;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .cta-form{
+        margin: 0;
+        border-radius: 24px 24px 0px 0px;
+        background-position: left;
+    }
+
+    .cta-form .form-group {
+        width: 90%;
+    }
+
+    .cta-form .form-group div{
+        display: block !important;
+    }
+
+    .cta-form .form-group div .form-control{
+        padding: 1rem;
+        margin: 0px !important;
+        margin-bottom: 14px !important;
+    }
+
+    .cta-form .form-group div .default-btn{
+        width: 100%;
+        margin: 0 !important;
+    }
+
+    .footer .footer-top{
+        width: auto !important;
+        text-align: center;
+    }
+
+    .footer .social-icons{
+        margin-bottom: 14px !important;
+    }
+
+}
+
+@media only screen and (max-width:420px){
+    .wrapper{
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .hero-section h1{
+        font-size: 28px;
+        line-height: 54px;
+    }
+    .hero-section h4 {
+        font-size: 16px;
+    }
+/* 
+    .offcanvas .offcanvas-body .contact-info{
+        display: none;
+    } */
+
+    .offcanvas .offcanvas-body .row{
+        flex-direction: column-reverse;
+    }
+
+    .testimonial .card {
+        width: 22rem !important;
+    }
+
+    .default-btn{
+        padding: 16px 62px;
+    }
+
+    .case-study-section .card .card-footer .case-btn{
+        font-size: 12px !important;
+    }
+
+    .case-study-section .card .card-footer img{
+        width: 28px !important;
+    }
+
+}
